@@ -1,0 +1,6 @@
+tap "homebrew/bundle"
+brew "bash"
+brew "git"
+brew "neovim"
+cask "discord"
+cask "firefox"
