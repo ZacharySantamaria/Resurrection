@@ -9,5 +9,8 @@ sleep 1
 echo Using brew to install from Brewfile
 brew bundle
 
+echo Congrats we have installed all applications but we need to finish with configuration files.
+echo This will configure nvim for Nvchad
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
-
+echo Enjoy your new setup
